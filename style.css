@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f3f2ef;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+  height: 50px;
+  border-bottom: 0.1px solid rgb(235, 232, 232);
+}
+.fa-linkedin-in {
+  color: #ffffff;
+  background-color: #0a66c2;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 3px;
+}
+.leftnav {
+  display: flex;
+  width: 30%;
+  margin-left: 115px;
+  align-items: center;
+}
+.fa-magnifying-glass {
+  color: gray;
+}
+.search {
+  border-radius: 2px;
+  padding: 5px 20px;
+  width: 68%;
+  margin-left: 5px;
+  background-color: #eef3f8;
+}
+#search {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+#home {
+  color: black;
+}
+.centernav {
+  display: flex;
+  width: 37%;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: #666666;
+  text-align: center;
+  margin-left: 45px;
+  font-size: 20px;
+  border-right: 0.1px solid rgb(235, 232, 232);
+}
+header {
+  position: sticky;
+  top: 0;
+}
+.profileicon img {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  margin-top: 1px;
+}
+
+.me {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  margin-top: -5px;
+}
+.fa-caret-down {
+  font-size: 12px;
+}
+.grid {
+  justify-content: center;
+  margin-left: 5px;
+  color: #666666;
+}
+.grid img {
+  margin-top: 5px;
+  height: 24px;
+  width: 24px;
+  align-items: center;
+}
+.rightnav {
+  width: 20%;
+  display: flex;
+  margin-left: 20px;
+}
+.work {
+  display: flex;
+  gap: 0.2rem;
+  margin-top: -5px;
+  align-items: center;
+}
+.trypremium a {
+  color: #5d3b09;
+  align-items: center;
+}
+.trypremium {
+  align-items: center;
+  text-align: center;
+}
+h6 {
+  font-weight: 100;
+}
+.userinfo {
+  width: 35%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px gray;
+  height: 100%;
+  position: sticky;
+  top: 90px;
+}
+.cover {
+  background-image: linear-gradient(to right, #cc2b5e, #753a88);
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 55px;
+}
+.userinfo img {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: 32%;
+  margin-top: -15%;
+}
+.userinfo .firsttext {
+  margin-left: 45px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.userinfo .secondtext {
+  color: black;
+  margin-left: 15px;
+}
+.userinfo p {
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: gray;
+  text-align: center;
+}
+.content {
+  display: flex;
+  gap: 1.5rem;
+  width: 85%;
+  margin: 20px auto;
+}
+.access {
+  font-weight: 100;
+  color: gray;
+  font-size: 12px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.newsfeed {
+  width: 70%;
+}
+
+.fa-bookmark {
+  color: gray;
+  margin-left: 15px;
+}
+
+.startpost img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  float: left;
+  margin: 15px 15px;
+}
+#text {
+  font-weight: 400;
+  margin-top: 19px;
+  width: 70%;
+  padding: 15px 20px;
+  border-radius: 25px;
+  border: 0.5px solid gray;
+}
+.startpost input::placeholder {
+  color: #666666;
+  font-weight: 700;
+}
+.icons {
+  display: flex;
+  justify-content:center;
+  margin-top: -3px;
+  gap: 3rem;
+  padding-left: 26px;
+}
+.icons #photo i {
+  color: blue;
+}
+.icons #video i {
+  color: white;
+  background-color: green;
+  height: 11px;
+  width: 18px;
+  text-align: center;
+  font-size: 8px;
+  padding-top: 3px;
+}
+#video {
+  margin-top: -2px;
+  align-items: center;
+}
+.icons #event i {
+  color: #c37d16;
+}
+.icons #article i {
+  color: #e16745;
+}
+.divfirst {
+  border-radius: 10px;
+  width: 95%;
+  margin: 0px auto;
+  box-shadow: 0px 0px 1px gray;
+  background-color: #ffffff;
+}
+
+.divsecond img {
+  width: 50px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.divsecond {
+  border-radius: 10px;
+  width: 95%;
+  margin: 0px auto;
+  box-shadow: 0px 0px 1px gray;
+  background-color: #ffffff;
+  
+}
+.headertext {
+  display: flex;
+  gap: 16rem;
+  align-items: center;
+  padding-top: 18px;
+  padding-left: 8px;
+}
+.fa-ellipsis {
+  color: gray;
+}
+.headertext h6 {
+  font-weight: 500;
+}
+
+.promote {
+  padding-left: 68px;
+  color: gray;
+}
+.caption {
+  width: 90%;
+  margin: 0 auto;
+  color: black;
+}
+.caption a {
+  color: blue;
+}
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 471px;
+  height: 200px;
+  margin-left: -2px;
+}
+.signup {
+  margin-top: 220px;
+  display: flex;
+  gap: 16rem;
+  height: 40px;
+  align-items: center;
+}
+.signup a {
+  border: 1px solid blue;
+  text-decoration: none;
+  height: 20px;
+  border-radius: 10px;
+  color: blue;
+  padding: 0px 6px;
+  font-weight: 600;
+}
+.signup h6 {
+  font-weight: 600;
+  margin-left: 15px;
+}
+.reactions {
+  display: flex;
+  justify-content: space-around;
+}
+.reactions i {
+  color: gray;
+  font-weight: bold;
+}
+.linkedinnews {
+  width: 50%;
+}
+.linkedinnews .lidfirst{
+  width: 95%;
+  margin: 0 auto;
+  background-color: red;
+  border-radius: 10px;
+  gap: 12rem;
+  padding-top: 5px;
+  background-color: #ffffff;
+  padding-top: 10px;
+  box-shadow: 0px 0px 1px gray;
+  position: sticky;
+  top: 90px;
+}
+.lidfirst .firstline{
+  display: flex;
+  justify-content:space-around;
+  gap: 9rem;
+  align-items: center;
+}
+.lidfirst .secondline{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 10px;
+  gap: 5px;
+  align-items: center;
+  color: gray;
+}
+.list ul{
+  margin-left: 38px;
+  line-height: 25px;
+}
+.list ul p{
+  color: gray;
+}
+
